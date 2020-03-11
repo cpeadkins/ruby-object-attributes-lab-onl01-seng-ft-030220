@@ -1,6 +1,6 @@
-class Dog
+class Person
 
-# Give a Dog a Name  
+# Give a Person a Name  
 
   def name #getter method
     @name
@@ -10,14 +10,14 @@ class Dog
     @name=new_name
   end
 
-# Give a Dog a Breed
+# Give a Person a Job
 
-  def breed #getter method
-    @breed
+  def job #getter method
+    @job
   end
   
-  def breed=(new_breed) #setter method
-    @breed=new_breed
+  def job=(new_job) #setter method
+    @job=new_job
   end
   
 end
