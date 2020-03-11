@@ -1,11 +1,11 @@
 class Dog
   
-  def name= "Fido"
+  def name=@name
     
   end
   
-#  def name
-#    @this_d
-#  end
+  def name
+    @name
+  end
   
 end
